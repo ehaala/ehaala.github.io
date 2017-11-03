@@ -1,0 +1,125 @@
+body, html {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Gruppo;
+	color: white;
+	background: black;
+	font-size: 16px;
+}
+
+a {
+	color: white;
+}
+
+h1 {
+	font-weight: bold;
+}
+
+h3, h4 {
+	text-align: center;
+}
+
+ul {
+	list-style-type: none;
+}
+
+hr {
+	margin: 0;
+	border-top: solid gray 1px;
+}
+
+.intro {
+	height: 500px;
+	margin: 0;
+	text-align: center;
+	background-image: url('../img/seattle.png'), url(../img/lightning.gif);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
+.about {
+/*	background: #575757;*/
+	background: linear-gradient(to bottom, #575757, black); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	color: white;
+	margin: 0;
+	padding: 40px;
+	overflow: auto;
+}
+
+.profile {
+	text-align: center;
+}
+
+.headshot {
+	border: solid black 0;
+	border-radius: 120px;
+	box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.project {
+	background: black;
+	height: 400px;
+	margin: 0;
+}
+
+.info {
+	padding: 30px;
+}
+
+.title {
+	margin-top: 30px;
+}
+
+.gymder {
+	text-align: center;
+}
+
+.screens {
+	margin-top: 75px;
+}
+
+.navbar {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    margin: 0;
+}
+
+.links {
+	float: right;
+	padding: 15px;
+}
+
+.icon {
+	margin: 10px;
+	display: inline-block;
+}
+
+.icon:hover {
+	border-radius: 120px;
+	box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.fixed-top {
+	background: #8E0E00;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to bottom, black, #575757);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, black, #575757); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.fixed-bottom {
+	background: #8E0E00;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to bottom, black, #575757);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, black, #575757); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	text-align: center;
+	height: 200px;
+	padding: 50px;
+}
+
+#test {
+	line-height: 40px;
+	text-shadow: 2px 2px 5px black;
+}

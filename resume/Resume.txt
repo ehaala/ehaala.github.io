@@ -1,0 +1,38 @@
+﻿Evan James Haala
+
+
+Open-minded and approachable team player who enjoys the success of my peers as much as my own. Eager to utilize my meticulous mindset to find simple solutions for complex problems while continuing to grow as a web developer.
+
+
+Skills
+HTML, CSS, Javascript, jQuery, Bootstrap, Material UI, ReactJS, NodeJS, Express, MongoDB, PostgreSQL
+
+
+Projects
+Gymder
+Designed and developed a responsive web app using Node and PostgreSQL. Incorporated Google Places API to allow users to search for local gyms and connect with other gym-goers.
+HabiTrack
+Assisted with design and development of a MERN stack habit tracking app with three other developers.
+
+
+Contact
+(407) 443-1133
+ejhaala@gmail.com
+Github.com/ehaala
+LinkedIn.com/ejhaala
+
+
+Experience
+Target, Seattle, WA
+Logistics Team Member (September 2014 - August 2017)
+Replenished stock on the sales floor. Worked with vendors to receive and document incoming shipments. Handled paperwork and loading responsibilities for outbound shipments.
+UF Health Rehab Center - Shands Medical Plaza, Gainesville, FL
+Rehab Aide Intern (May 2014 - August 2014)
+Progressed exercise programs for orthopedic and cardiopulmonary patients. Assisted PTs with filing patient charts and charges.
+
+
+Education
+General Assembly, Seattle, WA
+(August 2017 - November 2017)
+University of Florida, Gainesville, FL - Bachelor of Science, Applied Physiology and Kinesiology (cum laude)
+(August 2010 - August 2014)

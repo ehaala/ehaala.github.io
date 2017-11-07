@@ -4,21 +4,30 @@ body, html {
 }
 
 body {
-	font-family: Gruppo;
+	font-family: 'Tenor Sans', sans-serif;
 	color: white;
-	background: black;
-	font-size: 18px;
+	background: #202020;
+	font-size: 1.6em;
 }
 
 a {
 	color: white;
 }
 
-h1 {
-	font-weight: bold;
+h1, h3, h4 {
+	font-family: 'Vollkorn SC', serif;
 }
 
-h3, h4 {
+h1, h4 {
+	font-weight: bold;
+	text-shadow: 0 0 3px black;
+}
+
+h1 {
+	font-size: 3em;
+}
+
+h4 {
 	text-align: center;
 }
 
@@ -35,7 +44,7 @@ hr {
 	height: 500px;
 	margin: 0;
 	text-align: center;
-	background-image: url('../img/seattle.png'), url(../img/lightning.gif);
+	background-image: url('../img/seattle.png'), url(../img/night.gif);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: bottom;
@@ -43,7 +52,7 @@ hr {
 
 .about {
 /*	background: #575757;*/
-	background: linear-gradient(to bottom, #575757, black); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: linear-gradient(to bottom, #575757, #202020); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	color: white;
 	margin: 0;
 	padding: 40px;
@@ -56,30 +65,30 @@ hr {
 
 .headshot {
 	border: solid black 0;
-	border-radius: 120px;
+	border-radius: 100%;
 	box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin: 10px;
 }
 
 .project {
-	background: black;
+	background: #202020;
 	height: 400px;
-	margin: 0;
+	margin: 30px 0;
 }
 
 .info {
-	padding: 30px;
+	padding: 20px 50px;
 }
 
 .title {
 	margin-top: 30px;
 }
 
-.gymder {
-	text-align: center;
-}
-
 .screens {
-	margin-top: 75px;
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+	overflow: hidden;
 }
 
 .navbar {
@@ -100,26 +109,49 @@ hr {
 }
 
 .icon:hover {
-	border-radius: 120px;
+	border-radius: 5px;
 	box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.fixed-top {
-	background: #8E0E00;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to bottom, black, #575757);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to bottom, black, #575757); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+/*.fixed-top {
+	background: #8E0E00;
+	background: -webkit-linear-gradient(to bottom, black, #575757);
+	background: linear-gradient(to bottom, black, #575757);
+}*/
+
+.fa-bars {
+	float: left;
+	margin: 0 20px;
+}
+
+.navbar-brand {
+	font-size: 1.2em;
 }
 
 .fixed-bottom {
 	background: #8E0E00;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to bottom, black, #575757);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to bottom, black, #575757); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: -webkit-linear-gradient(to bottom, #202020, white);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, #202020, white); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	text-align: center;
-	height: 200px;
-	padding: 50px;
+	height: 250px;
+	padding: 100px;
 }
 
-#test {
+.reslinks {
+	color: black;
+}
+
+.modal {
+	color: black;
+}
+
+#bio {
 	line-height: 40px;
 	text-shadow: 2px 2px 5px black;
+}
+
+@media only screen and (max-width: 992px) {
+    body {
+        text-align: center;
+    }
 }

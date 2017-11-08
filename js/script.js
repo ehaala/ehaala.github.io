@@ -19,7 +19,19 @@ $('#bio').typeIt({
 
 $(document).ready(function(){
     $("#resume").click(function(){
-        $("#myModal").modal();
+        $("#resumeModal").modal();
+    });
+});
+
+$(document).ready(function(){
+    $("#gymder").click(function(){
+        $("#gymderModal").modal();
+    });
+});
+
+$(document).ready(function(){
+    $("#habitrack").click(function(){
+        $("#habitrackModal").modal();
     });
 });
 

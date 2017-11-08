@@ -4,15 +4,9 @@
 	<title>Evan Haala</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link href="https://fonts.googleapis.com/css?family=Tenor+Sans|Vollkorn+SC" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Sigmar+One|Tenor+Sans" rel="stylesheet">
 </head>
 <body>
-
-<!-- 	<nav class="navbar fixed-top navbar-light bg-faded">
-	  <a class="navbar-brand" href="#projects" id="projlink">Projects</a>
-	  <a class="navbar-brand" href="#contact" id="conlink">Contact</a>
-	  <a class="navbar-brand" href="#" id="resume">Resume</a>
-	</nav> -->
 
 	<div class="row intro">
 		<div class="dropdown">
@@ -26,6 +20,28 @@
 		  </ul>
 		</div>
 
+	  <!-- Modal -->
+	  <div class="modal fade" id="resumeModal" role="dialog">
+	    <div class="modal-dialog">
+	      <!-- Modal content-->
+	      <div class="modal-content">
+		      <div class="modal-header">
+		      	<p>
+		      		Download
+			        <a class="reslinks" href="https://drive.google.com/file/d/1T_M3ZBnMrlrlHLFdLDtycKEkZpFVDMHK/view?usp=sharing" target="_blank">.pdf</a> /
+			        <a class="reslinks" href="https://drive.google.com/file/d/12aCsaugL0a1jG4ezDTdiSyyjKpiifNZy/view?usp=sharing" target="_blank">.txt</a>
+		      	</p>
+		      </div>
+	        <div class="modal-body">
+	          <img src="img/Resume.png" width="100%">
+	        </div>
+	        <div class="modal-footer">
+	          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	        </div>
+	      </div>
+	    </div>
+	  </div>
+
 		<div class="col-sm-12">
 			<h1>Evan James Haala</h1>
 			<h4>- Full Stack Web Developer -</h4>
@@ -34,61 +50,101 @@
 
 	<div class="row about">
 		<div class="col-sm-12 col-md-6 profile">
-			<img src="img/headshot.png" class="headshot" height="300px">
+			<img src="img/collage.png" class="headshot" height="375px">
 		</div>
 		<div class="col-sm-12 col-md-6">
 			<p id="bio"></p>
 		</div>
 	</div>
 
+
+
 	<div class="row" id="projects">
 		<div class="col-sm-12 col-md-6 project info">
-			<h3 class="title">
-				<a href="https://gymfriendfinder.herokuapp.com/" target="_blank">Gymder</a>
+			<h2 class="title">
+				Gymder
 				<a href="https://github.com/ehaala/gymder" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-			</h3>
-			<p>Web app for users to connect with others through their local gyms</p>
-			<p>- Technologies -</p>
-			<p>Node.js</p>
-			<p>Express</p>
-			<p>PostgreSQL</p>
-			<p>Bootstrap</p>
-			<p>Google Places API</p>
+			</h2>
+			<p class="italic">"Find the gym buddy you've always been looking for!"</p>
+			<br />
+			<button type="button" class="btn btn-default" id="gymder">More Info</button>
+
+		  <div class="modal fade" id="gymderModal" role="dialog">
+		    <div class="modal-dialog">
+		      <!-- Modal content-->
+		      <div class="modal-content">
+			      <div class="modal-header">
+			      	<h2><a class="dark" href="https://gymfriendfinder.herokuapp.com/" target="_blank">Visit Gymder!</a></h2>
+			      </div>
+		        <div class="modal-body">
+							<p>Web app for users to connect with others through their local gyms</p>
+							<p>- Technologies -</p>
+							<p>Node.js</p>
+							<p>Express</p>
+							<p>PostgreSQL</p>
+							<p>Bootstrap</p>
+							<p>Google Places API</p>
+		        </div>
+		        <div class="modal-footer">
+		          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		        </div>
+		      </div>
+		    </div>
+		  </div>
 		</div>
 
-		<div class="col-sm-12 col-md-6 project">
+		<div class="col-sm-12 col-md-6 project pics">
 			<img class="screens" src="img/Macbook.png">
 		</div>
 	</div>
 
-	<hr />
+
 
 	<div class="row">
-		<div class="col-sm-12 col-md-6 project">
+		<div class="col-sm-12 col-md-6 project pics">
 			<img class="screens" src="img/Macbook2.png">
 		</div>
 
 		<div class="col-sm-12 col-md-6 project info">
-			<h3 class="title">
-				<a href="https://habitrackapp.herokuapp.com/" target="_blank">HabiTrack</a>
+			<h2 class="title">
+				Habitrack
 				<a href="https://github.com/ehaala/habitrack" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-			</h3>
-			<p>MERN stack habit-tracking application built with 3 other developers</p>
-			<p>- Technologies -</p>
-			<p>Mongoose/MongoDB</p>
-			<p>Express</p>
-			<p>React</p>
-			<p>Node.js</p>
-			<p>D3/Recharts</p>
-			<p>Material UI</p>
+			</h2>
+			<p class="italic">"Track your habits and monitor your progress with extensive data visualization"</p>
+			<br />
+			<button type="button" class="btn btn-default" id="habitrack">More Info</button>
+
+		  <div class="modal fade" id="habitrackModal" role="dialog">
+		    <div class="modal-dialog">
+		      <!-- Modal content-->
+		      <div class="modal-content">
+			      <div class="modal-header">
+			      	<h2><a class="dark" href="https://habitrackapp.herokuapp.com" target="_blank">Visit Habitrack!</a></h2>
+			      </div>
+		        <div class="modal-body">
+							<p>MERN stack habit-tracking application built with 3 other developers</p>
+							<p>- Technologies -</p>
+							<p>Mongoose/MongoDB</p>
+							<p>Express</p>
+							<p>React</p>
+							<p>Node.js</p>
+							<p>D3/Recharts</p>
+							<p>Material UI</p>
+		        </div>
+		        <div class="modal-footer">
+		          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		        </div>
+		      </div>
+		    </div>
+		  </div>
 		</div>
 	</div>
 
-	<hr />
+
 
 	<div class="row" id="projects">
-		<div class="col-sm-12 col-md-6 project info">
-			<h3 class="title"><a href="#" target="_blank">Project 4</a></h3>
+		<div class="col-sm-12 col-md-5 project info">
+			<h2 class="title"><a href="#" target="_blank">Project 4</a></h2>
 			<p>- Some info goes here....</p>
 			<p>- Technologies -</p>
 			<p>Node.js</p>
@@ -98,32 +154,12 @@
 			<p>Google Places API</p>
 		</div>
 
-		<div class="col-sm-12 col-md-6 project">
+		<div class="col-sm-12 col-md-7 project pics">
 			<img class="screens" src="img/Macbook.png">
 		</div>
 	</div>
 
-  <!-- Modal -->
-  <div class="modal fade" id="myModal" role="dialog">
-    <div class="modal-dialog">
-      <!-- Modal content-->
-      <div class="modal-content">
-	      <div class="modal-header">
-	      	<p>
-	      		Download
-		        <a class="reslinks" href="https://drive.google.com/file/d/1T_M3ZBnMrlrlHLFdLDtycKEkZpFVDMHK/view?usp=sharing" target="_blank">.pdf</a> /
-		        <a class="reslinks" href="https://drive.google.com/file/d/12aCsaugL0a1jG4ezDTdiSyyjKpiifNZy/view?usp=sharing" target="_blank">.txt</a>
-	      	</p>
-	      </div>
-        <div class="modal-body">
-          <img src="img/Resume.png" width="100%">
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div>
+
 
 	<nav class="navbar fixed-bottom navbar-light bg-faded" id="contact">
 		<a class="icon" href="mailto:ejhaala@gmail.com" target="_top"><i class="fa fa-envelope fa-3x" aria-hidden="true"></i></a>

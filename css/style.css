@@ -12,10 +12,11 @@ body {
 
 a {
 	color: white;
+	text-decoration: underline;
 }
 
-h1, h3, h4 {
-	font-family: 'Vollkorn SC', serif;
+h1 {
+	font-family: 'Sigmar One', serif;
 }
 
 h1, h4 {
@@ -40,11 +41,16 @@ hr {
 	border-top: solid gray 1px;
 }
 
+.btn {
+	background: black;
+	color: white;
+}
+
 .intro {
 	height: 500px;
 	margin: 0;
 	text-align: center;
-	background-image: url('../img/seattle.png'), url(../img/night.gif);
+	background-image: url('../img/seattle2.png'), url(../img/night.gif);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: bottom;
@@ -52,7 +58,7 @@ hr {
 
 .about {
 /*	background: #575757;*/
-	background: linear-gradient(to bottom, #575757, #202020); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: linear-gradient(to bottom, black, #202020); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	color: white;
 	margin: 0;
 	padding: 40px;
@@ -65,19 +71,24 @@ hr {
 
 .headshot {
 	border: solid black 0;
-	border-radius: 100%;
+/*	border-radius: 100%;*/
 	box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	margin: 10px;
+	margin: 20px;
 }
 
 .project {
 	background: #202020;
-	height: 400px;
 	margin: 30px 0;
 }
 
 .info {
 	padding: 20px 50px;
+	text-align: center;
+}
+
+.pics {
+	height: 400px;
+	padding: 25px;
 }
 
 .title {
@@ -145,9 +156,26 @@ hr {
 	color: black;
 }
 
+.dark {
+	color: black;
+}
+
+.italic {
+	font-style: italic;
+}
+
 #bio {
 	line-height: 40px;
 	text-shadow: 2px 2px 5px black;
+	margin-top: 50px;
+}
+
+#gymder {
+	margin-top: 50px;
+}
+
+#habitrack {
+	margin-top: 50px;
 }
 
 @media only screen and (max-width: 992px) {

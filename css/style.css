@@ -71,8 +71,6 @@ hr {
 
 .headshot {
 	border: solid black 0;
-/*	border-radius: 100%;*/
-	box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	margin: 20px;
 }
 
@@ -164,6 +162,10 @@ hr {
 	font-style: italic;
 }
 
+.boxshadow {
+	box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 #bio {
 	line-height: 40px;
 	text-shadow: 2px 2px 5px black;
@@ -175,6 +177,10 @@ hr {
 }
 
 #habitrack {
+	margin-top: 50px;
+}
+
+#pokemon {
 	margin-top: 50px;
 }
 

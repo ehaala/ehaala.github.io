@@ -35,6 +35,12 @@ $(document).ready(function(){
     });
 });
 
+$(document).ready(function(){
+    $("#pokemon").click(function(){
+        $("#pokemonModal").modal();
+    });
+});
+
 $(function() { 
 	$("#projlink").on('click', function() { 
 		var position = $("#projects").offset().top; 

@@ -17,6 +17,8 @@ a {
 
 h1 {
 	font-family: 'Sigmar One', serif;
+	text-align: center;
+	margin-top: 50px;
 }
 
 h1, h4 {
@@ -42,8 +44,18 @@ hr {
 }
 
 .btn {
-	background: black;
+	background: #232526;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	color: white;
+}
+
+.btn:hover {
+	background: #abbaab;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #ffffff, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #ffffff, #abbaab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	color: black;
+	border: none;
 }
 
 .intro {
@@ -56,9 +68,14 @@ hr {
 	background-position: bottom;
 }
 
+.dropdown-menu {
+	background: darkgray;
+	color: white;
+}
+
 .about {
 /*	background: #575757;*/
-	background: linear-gradient(to bottom, black, #202020); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: linear-gradient(to bottom, black, white); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	color: white;
 	margin: 0;
 	padding: 40px;
@@ -108,8 +125,7 @@ hr {
 }
 
 .links {
-	float: right;
-	padding: 15px;
+	font-size: 1.6em;
 }
 
 .icon {
@@ -142,8 +158,8 @@ hr {
 	background: -webkit-linear-gradient(to bottom, #202020, white);  /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to bottom, #202020, white); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	text-align: center;
-	height: 250px;
-	padding: 100px;
+	height: 350px;
+	padding: 50px;
 }
 
 .reslinks {

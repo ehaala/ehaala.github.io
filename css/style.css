@@ -48,6 +48,7 @@ hr {
 	background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	color: white;
+	font-size: 1.4em;
 }
 
 .btn:hover {
@@ -74,8 +75,7 @@ hr {
 }
 
 .about {
-/*	background: #575757;*/
-	background: linear-gradient(to bottom, black, white); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: linear-gradient(to bottom, black, #2980b9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	color: white;
 	margin: 0;
 	padding: 40px;
@@ -129,36 +129,25 @@ hr {
 }
 
 .icon {
-	margin: 10px;
+	margin: 30px;
 	display: inline-block;
 }
 
 .icon:hover {
-	border-radius: 5px;
-	box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	text-shadow: 4px 4px 4px black;
 }
-
-/*.fixed-top {
-	background: #8E0E00;
-	background: -webkit-linear-gradient(to bottom, black, #575757);
-	background: linear-gradient(to bottom, black, #575757);
-}*/
 
 .fa-bars {
 	float: left;
 	margin: 0 20px;
 }
 
-.navbar-brand {
-	font-size: 1.2em;
-}
-
 .fixed-bottom {
-	background: #8E0E00;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to bottom, #202020, white);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to bottom, #202020, white); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: #2980b9;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2c3e50, #2980b9);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2c3e50, #2980b9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	text-align: center;
-	height: 350px;
+	height: 400px;
 	padding: 50px;
 }
 
@@ -179,7 +168,8 @@ hr {
 }
 
 .boxshadow {
-	box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	/*box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+	box-shadow: 10px 10px 5px black;
 }
 
 #bio {
@@ -201,7 +191,7 @@ hr {
 }
 
 @media only screen and (max-width: 992px) {
-    body {
-        text-align: center;
-    }
+	body {
+		text-align: center;
+	}
 }

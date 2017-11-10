@@ -3,6 +3,7 @@
 <head>
 	<title>Evan Haala</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Sigmar+One|Tenor+Sans" rel="stylesheet">
 </head>
@@ -33,7 +34,7 @@
 		      	</p>
 		      </div>
 	        <div class="modal-body">
-	          <img src="img/Resume.png" width="100%">
+	          <img src="img/Resume.png" class="boxshadow" width="100%">
 	        </div>
 	        <div class="modal-footer">
 	          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -44,7 +45,7 @@
 
 		<div class="col-sm-12">
 			<h1>Evan James Haala</h1>
-			<h4>- Full Stack Web Developer -</h4>
+			<h3>- Full Stack Web Developer -</h3>
 		</div>
 	</div>
 
@@ -70,7 +71,7 @@
 			</h2>
 			<p class="italic">"Find the gym buddy you've always been looking for!"</p>
 			<br />
-			<button type="button" class="btn btn-default" id="gymder">More Info</button>
+			<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#gymderModal">Info</button>
 
 		  <div class="modal fade" id="gymderModal" role="dialog">
 		    <div class="modal-dialog">
@@ -112,7 +113,7 @@
 			</h2>
 			<p class="italic">"Track your habits and monitor your progress with extensive data visualization"</p>
 			<br />
-			<button type="button" class="btn btn-default" id="habitrack">More Info</button>
+			<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#habitrackModal">Info</button>
 
 		  <div class="modal fade" id="habitrackModal" role="dialog">
 		    <div class="modal-dialog">
@@ -130,6 +131,8 @@
 							<p>Node.js</p>
 							<p>D3/Recharts</p>
 							<p>Material UI</p>
+							<img src="img/habitrack1.png" class="boxshadow habitscreen" width="100%">
+							<img src="img/habitrack2.png" class="boxshadow" width="100%">
 		        </div>
 		        <div class="modal-footer">
 		          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -146,7 +149,7 @@
 	</div>
 
 
-	<div class="row" id="projects">
+	<div class="row">
 		<div class="col-sm-12 col-md-6 project info">
 			<h2 class="title">
 				PokeGrab
@@ -154,7 +157,7 @@
 			</h2>
 			<p class="italic">"Like Whac-A-Mole... but instead of whacking moles, you're catching Pokémon!"</p>
 			<br />
-			<button type="button" class="btn btn-default" id="pokemon">More Info</button>
+			<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#pokemonModal">Info</button>
 
 		  <div class="modal fade" id="pokemonModal" role="dialog">
 		    <div class="modal-dialog">
@@ -182,6 +185,33 @@
 
 		<div class="col-sm-12 col-md-6 project pics">
 			<img class="screens" src="img/Macbook3.png">
+		</div>
+	</div>
+
+
+	<div class="row skills">
+		<div class="col-sm-12">
+			<h1>Skills</h1>
+		</div>
+		<div class="col-md-4">
+			<h2>Languages</h2>
+			<p>HTML5/CSS3</p>
+			<p>JavaScript</p>
+			<p>Ruby on Rails</p>
+		</div>
+		<div class="col-md-4">
+			<h2>Front-End</h2>
+			<p>jQuery</p>
+			<p>Bootstrap</p>
+			<p>ReactJS</p>
+			<p>Material UI</p>
+		</div>
+		<div class="col-md-4">
+			<h2>Back-End</h2>
+			<p>NodeJS</p>
+			<p>Express</p>
+			<p>PostgreSQL</p>
+			<p>MongoDB</p>
 		</div>
 	</div>
 

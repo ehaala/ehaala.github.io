@@ -118,10 +118,10 @@ hr {
 }
 
 .navbar {
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    border-radius: 0;
-    margin: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  margin: 0;
 }
 
 .links {
@@ -134,7 +134,8 @@ hr {
 }
 
 .icon:hover {
-	text-shadow: 4px 4px 4px black;
+	color: white;
+	text-shadow: 6px 6px 6px black;
 }
 
 .fa-bars {
@@ -142,10 +143,22 @@ hr {
 	margin: 0 20px;
 }
 
+.fa-bars:hover {
+	color: gray;
+	text-shadow: 6px 6px 6px black;
+}
+
+.skills {
+	height: 400px;
+	margin: 0;
+	background: black;
+	text-align: center;
+}
+
 .fixed-bottom {
-background: #2980b9;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #2c3e50, #2980b9);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #2c3e50, #2980b9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: #2980b9;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #2c3e50, #2980b9);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #2c3e50, #2980b9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	text-align: center;
 	height: 400px;
 	padding: 50px;
@@ -155,8 +168,13 @@ background: linear-gradient(to right, #2c3e50, #2980b9); /* W3C, IE 10+/ Edge, F
 	color: black;
 }
 
-.modal {
-	color: black;
+.modal-content {
+	color: white;
+	background: #2980b9;
+}
+
+.habitscreen {
+	margin-bottom: 20px;
 }
 
 .dark {
@@ -169,7 +187,7 @@ background: linear-gradient(to right, #2c3e50, #2980b9); /* W3C, IE 10+/ Edge, F
 
 .boxshadow {
 	/*box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
-	box-shadow: 10px 10px 5px black;
+	box-shadow: 8px 8px 5px #202020;
 }
 
 #bio {
@@ -178,20 +196,14 @@ background: linear-gradient(to right, #2c3e50, #2980b9); /* W3C, IE 10+/ Edge, F
 	margin-top: 50px;
 }
 
-#gymder {
-	margin-top: 50px;
-}
-
-#habitrack {
-	margin-top: 50px;
-}
-
-#pokemon {
-	margin-top: 50px;
-}
-
 @media only screen and (max-width: 992px) {
 	body {
 		text-align: center;
 	}
+}
+
+.modal.fade .modal-dialog {
+   -webkit-transform: translate(0);
+   -moz-transform: translate(0);
+   transform: translate(0);
 }

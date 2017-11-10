@@ -17,23 +17,30 @@ $(document).ready(function(){
   .tiBreak() .tiPause(750)
   .tiType("I like to code, play video games, and anything sports-related.")
   .tiBreak() .tiPause(500)
-  .tiType("Check out some of my projects below!")
+  .tiType("Check out some of my projects below!");
 
   $("#resume").click(function(){
     $("#resumeModal").modal();
   });
 
-  $("#gymder").click(function(){
-    $("#gymderModal").modal();
-  });
+  function testAnim(x) {
+      $('.modal .modal-dialog').attr('class', 'modal-dialog  ' + x + '  animated');
+  };
 
-  $("#habitrack").click(function(){
-    $("#habitrackModal").modal();
-  });
+  $('#pokemonModal').on('show.bs.modal', function (e) {
+    var anim = 'fadeInUpBig'
+        testAnim(anim);
+  })
 
-  $("#pokemon").click(function(){
-    $("#pokemonModal").modal();
-  });
+  $('#gymderModal').on('show.bs.modal', function (e) {
+    var anim = 'fadeInUpBig'
+        testAnim(anim);
+  })
+
+  $('#habitrackModal').on('show.bs.modal', function (e) {
+    var anim = 'fadeInUpBig'
+        testAnim(anim);
+  })
 
   $(function() { 
     $("#projlink").on('click', function() { 

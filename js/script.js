@@ -6,11 +6,7 @@ $(document).ready(function(){
     breakLines: true,
     autoStart: true
   })
-  .tiType("Hi, I'm Evan. I.... develop webs?")
-  .tiPause(1500)
-  .tiDelete(18)
-  .tiPause(500)
-  .tiType(' am a web developer.')
+  .tiType("Hi, I'm Evan. I am a web developer.")
   .tiBreak()
   .tiPause(1000)
   .tiType("I currently reside in Seattle.")

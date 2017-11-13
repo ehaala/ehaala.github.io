@@ -1,6 +1,9 @@
-body, html {
-	margin: 0;
-	padding: 0;
+html,body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; 
 }
 
 body {
@@ -28,6 +31,10 @@ h1, h4 {
 
 h1 {
 	font-size: 3em;
+}
+
+h2 {
+	text-shadow: 3px 3px 6px black;
 }
 
 h4 {
@@ -59,11 +66,16 @@ hr {
 	border: none;
 }
 
+.modal-content {
+	border: solid black 1px;
+	border-radius: 0;
+}
+
 .intro {
 	height: 500px;
 	margin: 0;
 	text-align: center;
-	background-image: url('../img/seattle2.png'), url(../img/night.gif);
+	background-image: url('../img/seattle2.png'), linear-gradient(to top, black, #2980b9);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: bottom;

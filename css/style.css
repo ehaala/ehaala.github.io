@@ -13,13 +13,17 @@ body {
 	font-size: 20px;
 }
 
-@media only screen and (max-width: 992px) {
+@media (max-width: 992px) {
 	body {
 		font-size: 30px;
 		text-align: center;
 	}
 	.modal-dialog {
 		width: 95%;
+	}
+	.headshot {
+		height: 50%;
+		width: 50%;
 	}
 }
 
@@ -83,11 +87,11 @@ hr {
 }
 
 .intro {
-	height: 500px;
+	height: 800px;
 	margin: 0;
 	text-align: center;
-	background-image: url('../img/seattle2.png'), linear-gradient(to top, black, #2980b9);
-	background-size: cover;
+	background-image: url('../img/seattle2.png'), linear-gradient(to top, white, #2980b9);
+	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: bottom;
 }

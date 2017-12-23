@@ -15,18 +15,14 @@ body {
 
 @media (max-width: 992px) {
 	body {
-/*		font-size: 30px;*/
 		text-align: center;
 	}
-/*	h3 {
-		font-size: 1.8em;
-	}*/
-/*	.modal-dialog {
-		width: 95%;
-	}*/
 	.headshot {
 		height: 80%;
 		width: 80%;
+	}
+	.intro {
+		height: 50vh;
 	}
 }
 
@@ -35,28 +31,31 @@ a {
 	text-decoration: underline;
 }
 
-h1 {
-	font-family: 'Sigmar One', serif;
+td, th {
+	width: 33%;
 	text-align: center;
+}
+
+h1 {
+/*	font-family: 'Sigmar One', serif;*/
 	margin-top: 50px;
+	margin-bottom: 25px;
+	font-size: 2.5em;
 }
 
 h1, h4 {
 	font-weight: bold;
 	text-shadow: 0 0 3px black;
+	text-align: center;
 }
 
-h1 {
-	font-size: 3em;
+h3 {
+	font-size: 1.5em;
 }
 
 h2 {
 	font-size: 1.8em;
 	text-shadow: 3px 3px 6px black;
-}
-
-h4 {
-	text-align: center;
 }
 
 ul {
@@ -105,10 +104,28 @@ hr {
 
 .about {
 	background: linear-gradient(to bottom, black, #2980b9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: white;
 	color: white;
 	margin: 0;
 	padding: 40px;
 	overflow: auto;
+}
+
+.tabs .indicator {
+  background-color: black;
+}
+
+.tabs .tab a.active {
+  color: white;
+  background: #2980b9;
+}
+
+.tabs .tab a:hover {
+  color: black;
+}
+
+.tabs .tab a {
+  color: #2980b9;
 }
 
 .profile {
@@ -116,23 +133,24 @@ hr {
 }
 
 .headshot {
-	border: solid black 0;
+	border: solid white 2px;
+	border-radius: 100%;
 	margin: 20px;
+	filter: grayscale(100%);
 }
 
 .project {
 	background: #202020;
-	margin: 30px 0;
 }
 
 .info {
-	padding: 20px 50px;
+	padding: 0 60px;
 	text-align: center;
 }
 
 .pics {
 	height: 400px;
-	padding: 25px;
+/*	padding: 25px;*/
 }
 
 .title {
@@ -215,9 +233,12 @@ hr {
 }
 
 .dark {
+	color: black;
+	text-shadow: none;
+}
+
+.blue {
 	color: #2980b9;
-	-webkit-text-stroke: 2px black;
-	padding-bottom: 50px;
 }
 
 .italic {
@@ -231,7 +252,7 @@ hr {
 
 #bio {
 	line-height: 40px;
-	text-shadow: 2px 2px 5px black;
+	color: black;
 	margin-top: 50px;
 }
 

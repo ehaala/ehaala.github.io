@@ -18,6 +18,9 @@ body {
 		font-size: 30px;
 		text-align: center;
 	}
+	h3 {
+		font-size: 1.8em;
+	}
 	.modal-dialog {
 		width: 95%;
 	}

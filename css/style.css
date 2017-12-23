@@ -15,18 +15,18 @@ body {
 
 @media (max-width: 992px) {
 	body {
-		font-size: 30px;
+/*		font-size: 30px;*/
 		text-align: center;
 	}
-	h3 {
+/*	h3 {
 		font-size: 1.8em;
-	}
-	.modal-dialog {
+	}*/
+/*	.modal-dialog {
 		width: 95%;
-	}
+	}*/
 	.headshot {
-		height: 50%;
-		width: 50%;
+		height: 80%;
+		width: 80%;
 	}
 }
 
@@ -90,7 +90,7 @@ hr {
 }
 
 .intro {
-	height: 800px;
+	height: 100vh;
 	margin: 0;
 	text-align: center;
 	background-image: url('../img/seattle2.png'), linear-gradient(to top, white, #2980b9);
@@ -188,6 +188,7 @@ hr {
 	background: #2980b9;  /* fallback for old browsers */
 	background: -webkit-linear-gradient(to right, #2c3e50, #2980b9);  /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to right, #2c3e50, #2980b9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	margin-bottom: 40px;
 }
 
 .fixed-bottom {
@@ -196,7 +197,6 @@ hr {
 	background: linear-gradient(to right, #2c3e50, #2980b9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	text-align: center;
 	height: 400px;
-	padding: 50px;
 }
 
 .reslinks {
@@ -215,7 +215,9 @@ hr {
 }
 
 .dark {
-	color: black;
+	color: #2980b9;
+	-webkit-text-stroke: 2px black;
+	padding-bottom: 50px;
 }
 
 .italic {

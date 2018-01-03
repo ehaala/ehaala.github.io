@@ -6,15 +6,34 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link href="https://fonts.googleapis.com/css?family=Sigmar+One|Tenor+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Sigmar+One|Tenor+Sans|Exo+2" rel="stylesheet">
 </head>
 <body>
-	<div>
+<!-- 	<div>
 	  <ul class="nav navbar-nav topnav">
 		    <li><a href="#projects" id="projlink">Projects</a></li>
 		    <li><a href="#contact" id="conlink">Contact</a></li>
 		    <li><a href="#" id="resume">Resume</a></li>
 	  </ul>
+	</div> -->
+
+	<div class="navbar navbar-inverse">
+	  <div class="container">
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	    </div>
+	    <div class="collapse navbar-collapse">
+	      <ul class="nav navbar-nav">
+	        <li><a href="#" id="resume">Resume</a></li>
+	        <li><a href="#projects" id="projlink" data-toggle="collapse" data-target=".navbar-collapse.in">Projects</a></li>
+	        <li><a href="#contact" id="conlink" data-toggle="collapse" data-target=".navbar-collapse.in">Contact</a></li>
+	      </ul>
+	    </div><!--/.nav-collapse -->
+	  </div>
 	</div>
 
 	<div class="row intro">
